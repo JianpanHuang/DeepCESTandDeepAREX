@@ -13,7 +13,6 @@ for ss = 1:zSz(3)
             if mask(mm,nn,ss) == 1 
                counter = counter+1;
                zSpecTemp(:,counter) = squeeze(zSpec(mm,nn,ss,:));
-%                zTemp(:,counter) = squeeze(zSpecDenoi(mm,nn,ss,xind));  % with MLSVD denoising
             end
         end   
     end
@@ -49,7 +48,7 @@ for ss = 1:zSz(3)
     subplot(4,3,1), imagesc(cestParam(dispSz1, dispSz2, ss,3).*mask(dispSz1, dispSz2,:,ss)); mycolormap(2);colorbar;axis off;caxis(caxisVal(1,:)); title('4PLF')
     subplot(4,3,2), imagesc(cestParamNet(dispSz1, dispSz2, ss,3).*mask(dispSz1, dispSz2, :,ss)); mycolormap(2);colorbar;axis off;caxis(caxisVal(1,:)); title('deepCEST')
     subplot(4,3,3), imagesc((cestParam(dispSz1, dispSz2,ss,3)-cestParamNet(dispSz1, dispSz2, ss,3)).*mask(dispSz1, dispSz2, :,ss)); mycolormap(2);colorbar;axis off;caxis(caxisVal(1,:)); title('Difference')
-    % 3.5 ppm map
+    % Amide (3.5 ppm) map
     subplot(4,3,4), imagesc(cestParam(dispSz1, dispSz2, ss,4).*mask(dispSz1, dispSz2, :,ss)); mycolormap(2);colorbar;axis off;caxis(caxisVal(2,:));
     subplot(4,3,5), imagesc(cestParamNet(dispSz1, dispSz2, ss,4).*mask(dispSz1, dispSz2, :,ss)); mycolormap(2);colorbar;axis off;caxis(caxisVal(2,:));
     subplot(4,3,6), imagesc((cestParam(dispSz1, dispSz2, ss,4)-cestParamNet(dispSz1, dispSz2, ss,4)).*mask(dispSz1, dispSz2, :,ss)); mycolormap(2);colorbar;axis off;caxis(caxisVal(2,:));
