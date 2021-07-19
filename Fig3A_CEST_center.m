@@ -5,7 +5,7 @@ clear all; close all; clc;
 load(['Data', filesep, 'M1.mat']);
 zSz = size(zSpec);
 paramSz = size(cestParam);
-cestParamNet = zeros(paramSz); % CEST parameters prediced by deepCEST
+cestParamNet = zeros(paramSz); % CEST parameters predicted by deepCEST
 counter = 0;
 for ss = 1:zSz(3)
     for mm = 1:zSz(1)
