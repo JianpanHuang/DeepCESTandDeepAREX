@@ -35,7 +35,7 @@ end
 
 %% Display the results
 dispSz1 = 10:59;
-dispSz2 = 15:84; % Only brain region was displayed wihle background was removed
+dispSz2 = 15:84; % Remove background and display brain only
 caxisVal = [-0.5, 0.5; % deltaB0
              0, 0.10; % 3.5ppm
              0, 0.10; % rNOE
