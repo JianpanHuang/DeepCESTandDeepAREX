@@ -26,7 +26,7 @@ for ss = 1:zSz(3)
         for nn = 1:zSz(2)
             if mask(mm,nn,ss) == 1 
                counter = counter+1;
-               arexParamNet(mm,nn,ss,:) = outputs(:,counter); % Reform into 2D maps
+               arexParamNet(mm,nn,ss,:) = outputs(:,counter); % Reconstruct the 2D maps
             end
         end
     end
@@ -42,7 +42,7 @@ offsMt = -2.5;
 [~, indMt] = min(abs(w-offsMt));
 % Display
 dispSz1 = 10:59;
-dispSz2 = 15:84; % only brain region was displayed wihle background was removed
+dispSz2 = 15:84; % Remove background and display brain only
 caxisVal = [-0.5, 0.5; % deltaB0
              0, 0.16; % 3.5ppm
              0, 0.16; % rNOE
