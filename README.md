@@ -12,7 +12,7 @@ Matlab version: 9.5.0.944444 (R2018b)
 
 This toolbox contains demo for the following paper:
 
-Jianpan Huang, Joseph H. C. Lai, Kai-Hei Tse, Gerald W.Y. Cheng, Yang Liu, Zilin Chen, Xiongqi Han, Lin Chen, Jiadi Xu, Kannie W. Y. Chan*. Deep neural network based CEST and AREX processing: Application in imaging a model of Alzheimer’s disease at 3 T.
+Jianpan Huang, Joseph H. C. Lai, Kai-Hei Tse, Gerald W.Y. Cheng, Yang Liu, Zilin Chen, Xiongqi Han, Lin Chen, Jiadi Xu, Kannie W. Y. Chan*. Deep neural network based CEST and AREX processing: Application in imaging a model of Alzheimer’s disease at 3 T. Magnetic Resonance in Medicine 2021. Accepted.
 
 Comments and suggestions are welcome.
 
