@@ -1,5 +1,5 @@
 %% Jianpan Huang, Email: jianpanhuang@outlook.com, 10-July-2021
-addpath(genpath(pwd)); ini;
+clear all; close all; clc; warning off;
 
 %% Load data
 load(['Data', filesep, 'TrainingData.mat']);
