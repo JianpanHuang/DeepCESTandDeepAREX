@@ -1,5 +1,6 @@
 %% Jianpan Huang, Email: jianpanhuang@outlook.com, 10-July-2021
-addpath(genpath(pwd)); ini;
+clear all; close all; clc; warning off;
+addpath(genpath(pwd));
 
 %% Load and reorganize Z-spectra
 load(['Data', filesep, 'M1.mat']);
