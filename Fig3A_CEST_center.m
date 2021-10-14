@@ -1,4 +1,4 @@
-% Jianpan Huang, Email: jianpanhuang@outlook.com, 10-July-2021
+%% Jianpan Huang, Email: jianpanhuang@outlook.com, 10-July-2021
 addpath(genpath(pwd)); ini;
 
 %% Load and reorganize Z-spectra
