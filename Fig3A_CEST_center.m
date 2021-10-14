@@ -27,7 +27,7 @@ for ss = 1:zSz(3)
         for nn = 1:zSz(2)
             if mask(mm,nn,ss) == 1 
                counter = counter+1; 
-               cestParamNet(mm,nn,ss,:) = outputs(:,counter); % Reform into 2D maps
+               cestParamNet(mm,nn,ss,:) = outputs(:,counter); % Restructure into 2D maps
             end
         end
     end
