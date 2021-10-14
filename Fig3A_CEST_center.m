@@ -3,7 +3,7 @@ clear all; close all; clc; warning off;
 addpath(genpath(pwd));
 
 %% Load and reorganize Z-spectra
-load(['Data', filesep, 'M1.mat']);
+load(['Data', filesep, 'WTdemo.mat']);
 zSz = size(zSpec);
 paramSz = size(cestParam);
 cestParamNet = zeros(paramSz); % CEST parameters prediced by deepCEST
