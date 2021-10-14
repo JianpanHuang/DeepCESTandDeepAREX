@@ -1,5 +1,5 @@
-clear all; close all; clc;
-% Jianpan Huang, Email: jianpanhuang@outlook.com, 10-July-2021
+%% Jianpan Huang, Email: jianpanhuang@outlook.com, 10-July-2021
+addpath(genpath(pwd)); ini;
 
 %% Load and reorganize Z-spectra
 load(['Data', filesep, 'M1.mat']);
@@ -26,7 +26,7 @@ for ss = 1:zSz(3)
         for nn = 1:zSz(2)
             if mask(mm,nn,ss) == 1 
                counter = counter+1;
-               arexParamNet(mm,nn,ss,:) = outputs(:,counter); % Reconstruct the 2D maps
+               arexParamNet(mm,nn,ss,:) = outputs(:,counter); % Restructure into 2D maps
             end
         end
     end
