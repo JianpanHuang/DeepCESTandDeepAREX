@@ -3,9 +3,9 @@ clear all; close all; clc; warning off;
 
 %% Load data
 load(['Data', filesep, 'TrainingData.mat']);
-% Two matrices in TrainingData.mat:
-% (i)  'zInput' in size of [length of offsets, number of Z-spectra], together with their corresponding
-% (ii) 'pTarget' in size of [length of Lorentzian fitting parameters, number of Z-spectra]
+% Two 2D matrices in TrainingData.mat:
+% (i)  'zInput', size = [length of offsets, number of Z-spectra], together with their corresponding
+% (ii) 'pTarget', size = [length of Lorentzian fitting parameters, number of Z-spectra]
 
 %% Set training parameters
 trainFcn = 'trainscg';  % Use the scaled conjugate gradient backpropagation
