@@ -37,7 +37,7 @@ net.performParam.normalization = 'percent';% 'none', 'standard', 'percent'
 % Set to 'yes' if using GPU. In this case, variables should be transformed
 % using 'gpuArray' before being fed into network, for example zR1Input = gpuArray(zR1Input)
 
-%% Predict
+%% Predict the results
 outputs15 = net(zR1Input(:,tr.testInd),'useParallel','yes','useGPU','no'); % 15% test data
 % mse15 = mean((outputs-pTarget(tr.testInd)).^2); % mse of 15% random test data
 outputsAll = net(zR1Input,'useParallel','yes','useGPU','no'); % All test data
