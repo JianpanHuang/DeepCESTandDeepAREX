@@ -1,5 +1,7 @@
 # DeepCESTandDeepAREX
 
+Note: If your CEST (&T1) data is acquired using different saturation parameters (B1, tsat, pulse shape, etc) at different field strengths, you need to prepare the training data set that matches your project.
+
 Authors: Jianpan Huang, Kannie WY Chan, et al.
 
 Email: jp.huang@cityu.edu.hk, KannieW.Y.C@cityu.edu.hk
