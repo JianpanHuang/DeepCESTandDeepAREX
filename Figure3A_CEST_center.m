@@ -20,7 +20,7 @@ for ss = 1:zSz(3)
 end
 
 %% Load deepCEST network and predict the CEST parameters
-load(['Networks', filesep, 'CESTNet_100_100_100_0.01_2643_0.0023771.mat']); % The trained network
+load(['Networks', filesep, 'CESTNet_100_100_100_0.01_2643_0.0023771.mat']); % Load the trained network
 outputs = net(zSpecTemp);  % Feed Z-spectra into the network
 counter = 0;
 for ss = 1:zSz(3)
