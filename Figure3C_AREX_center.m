@@ -34,13 +34,13 @@ for ss = 1:zSz(3)
 end
 
 %% Display the results
-% Find the index of Amide, rNOE and MT
+% Find the offset indexes of Amide, rNOE and MT
 offsAmide = 3.5; % in ppm
-[~, indAmide] = min(abs(w-offsAmide));
+[~, indAmide] = min(abs(offs-offsAmide));
 offsRnoe = -3.5; % in ppm
-[~, indRnoe] = min(abs(w-offsRnoe));
+[~, indRnoe] = min(abs(offs-offsRnoe));
 offsMt = -2.5;
-[~, indMt] = min(abs(w-offsMt));
+[~, indMt] = min(abs(offs-offsMt));
 % Display
 dispSz1 = 10:59;
 dispSz2 = 15:84; % Remove background and display brain only
