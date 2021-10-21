@@ -43,8 +43,7 @@ outputs15 = net(zInput(:,tr.testInd),'useParallel','yes','useGPU','no'); % 15% t
 outputsAll = net(zInput,'useParallel','yes','useGPU','no'); % All test data
 
 %% Plot the results
-% Visualization of network
-view(net);
+set(0,'defaultfigurecolor','w'); 
 % Regression of 15% test data
 figure, plotregression(gather(pTarget(3, tr.testInd)), gather(outputs15(3, :)), 'B_0',...
                        gather(pTarget(4, tr.testInd)), gather(outputs15(4, :)), '3.5 ppm',...
