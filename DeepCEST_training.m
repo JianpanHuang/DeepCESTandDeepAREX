@@ -63,5 +63,5 @@ for nn =1:hiddenLayNum
 end
 gamaStr = num2str(net.performParam.regularization);
 epochStr = num2str(tr.num_epochs);
-vperfStr = tr.best_vperf;
+vperfStr = num2str(tr.best_vperf);
 save(['Networks',filesep,'CESTNet', layName, gamaStr,'_', epochStr,'_', vperfStr, '.mat'],'net'); 
