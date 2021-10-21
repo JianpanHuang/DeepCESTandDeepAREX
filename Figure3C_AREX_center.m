@@ -14,12 +14,12 @@ for ss = 1:zSz(3)
         for nn = 1:zSz(2)
             if mask(mm,nn,ss) == 1 
                counter = counter+1;
-               zTemp(:,counter) = [squeeze(zSpec(mm,nn,ss,:)); r1Map(mm, nn)]; % Combine Z-spectra with T1
+               zTemp(:,counter) = [squeeze(zSpec(mm,nn,ss,:)); r1Map(mm, nn)]; % Combine Z-spectra with R1
             end
         end   
     end
 end
-load(['Networks',filesep,'AREXNet_100_100_100_0.01_7496_0.000105.mat']); % The trained network
+load(['Networks',filesep,'AREXNet_100_100_100_0.01_7496_0.000105.mat']); % Load the trained network
 outputs = net(zTemp); % Feed Z-spectra into the network
 counter = 0;
 for ss = 1:zSz(3)
