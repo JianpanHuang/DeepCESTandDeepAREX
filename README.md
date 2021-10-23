@@ -20,6 +20,7 @@ If you use the code, please consider citing our paper above. Earlier papers are 
 
 [3] Chen L, Schär M, Chan KW, Huang J, Wei Z, Lu H, Qin Q, Weiss RG, van Zijl PC, Xu J. In vivo imaging of phosphocreatine with artificial neural networks. Nature Communications 2020;11(1):1-10.
 
+For the conventional multi-pool Lorenzian fitting, please visit: https://github.com/JianpanHuang/CESTMRI-MPLF or https://github.com/cest-sources
 
 Comments and suggestions are welcome.
 
