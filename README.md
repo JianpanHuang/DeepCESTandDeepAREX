@@ -6,9 +6,7 @@ Authors: Jianpan Huang, Kannie WY Chan, et al.
 
 Email: jp.huang@cityu.edu.hk, KannieW.Y.C@cityu.edu.hk
 
-Affiliations: Department of Biomedical Engineering, City University of Hong Kong, Hong Kong, China
-
-Matlab version: 9.10.0.1739362 (R2021a) Update 5
+Affiliations: Department of Biomedical Engineering, City University of Hong Kong
 
 This toolbox contains demo for the following paper:
 
