@@ -6,7 +6,7 @@ Authors: Jianpan Huang, Kannie WY Chan, et al.
 
 Email: jp.huang@cityu.edu.hk, KannieW.Y.C@cityu.edu.hk
 
-Affiliation: Department of Biomedical Engineering, City University of Hong Kong
+Affiliation: Department of Biomedical Engineering, City University of Hong Kong, Hong Kong, China
 
 This toolbox contains demo for the following paper:
 
